@@ -6,7 +6,7 @@ data:
       - system:nodes
       rolearn: arn:aws:iam::273354630431:user/Leela:role/eksctl-expense1-nodegroup-expense1-NodeInstanceRole-gZFMeRrcrqKl
       username: system:node:{{EC2PrivateDNSName}}
-mapUsers: |
+  mapUsers: |
     - groups:
       - default-trainee
       userarn: arn:aws:iam::273354630431:user/Leela
